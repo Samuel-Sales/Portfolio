@@ -3,15 +3,18 @@
 <head>
     <script src="script.js"></script>
     <!--<link rel="stylesheet" href="reset.css"> -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+        </nav>
     </header>
 
     <main class="apresentacao">
@@ -21,15 +24,26 @@
                 Olá! Sou Samuel Sales, desenvolvedor Full Stack com especialidade em Node.js, .NET e React. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
             </p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/samuel-sales/">Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/Samuel-Sales">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/samuel-sales/">
+                    <img src="imagens/linkedin.png" alt="Icone do linkedin">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/Samuel-Sales">
+                    <img src="imagens/github.png" alt="Icone do Github">
+                    Github
+                </a>
+                <a class="apresentacao__links__link" href="https://www.twitch.tv/d3adfps">
+                    <img src="imagens/twitch.png" alt="Icone da Twitch.tv">
+                    Twitch
+                </a>
             </div>
         </section>
         <img class="imagem" src="imagens/foto.jpeg" alt="foto-Samuel">
     </main>
 
-    <footer>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Samuel Sales</p>
     </footer>
 </body>
 </html>
